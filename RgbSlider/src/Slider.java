@@ -48,10 +48,8 @@ class TColor extends JPanel {
     panel.add(sliderR);
     panel.add(sliderH);
     panel.add(sliderG);
-    panel.add(sliderS);
-    panel.add(sliderB);
-    panel.add(sliderBr);
-
+    //panel.add(sliderS);
+   
     panel.add(new JLabel("Alpha Adjustment (0 - 255): ", JLabel.RIGHT));
     panel.add(sliderAlpha);
 
